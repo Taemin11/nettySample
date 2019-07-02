@@ -25,6 +25,7 @@ public class EchoServerWithFuture {
                     p.addLast(new EchoServerHandlerWithFuture());
                 }
             });
+            
 
             ChannelFuture bindFuture = b.bind(8888);
             System.out.println("Bind Ω√¿€.");
