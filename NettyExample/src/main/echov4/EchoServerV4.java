@@ -22,7 +22,7 @@ public class EchoServerV4 {
                 public void initChannel(SocketChannel ch) {
                     ChannelPipeline p = ch.pipeline();
                     p.addLast(new EchoServerV4FirstHandler());
-                    p.addLast(new EchoServerV4SecondHandler());
+                    p.addLast(new EchoServerV4SecondHandler());//
                 }
             });
 
