@@ -25,6 +25,7 @@ public class ReadByteBufferTest {
         assertEquals(0, firstBuffer.position());
         assertEquals(4, firstBuffer.limit());
 
+        
         firstBuffer.get(4);
         assertEquals(0, firstBuffer.position());
         assertEquals(4, firstBuffer.limit());
