@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="src/text"/>
 	<classpathentry kind="lib" path="libs/netty-all-4.1.6.Final.jar" sourcepath="libs/netty-all-4.1.6.Final-sources.jar"/>
 	<classpathentry kind="lib" path="libs/netty-example-4.1.6.Final.jar" sourcepath="libs/netty-example-4.1.6.Final-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
