@@ -1,4 +1,4 @@
-package Chat2;
+package ChatMine;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.EventLoopGroup;
